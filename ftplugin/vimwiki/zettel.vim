@@ -62,7 +62,7 @@ xnoremap <silent> <Plug>ZettelTitleSelectedMap :<C-U>ZettelTitleSelected<CR>
 
 if g:zettel_default_mappings==1
   " inoremap [[ [[<esc>:ZettelSearch<CR>
-  inoremap <buffer> <silent> [[ [[<esc><Plug>ZettelSearchMap
+  inoremap <buffer> <silent> [[ <esc><Plug>ZettelSearchMap
   nnoremap <buffer> T <Plug>ZettelYankNameMap
   " xnoremap z :call zettel#vimwiki#zettel_new_selected()<CR>
   xnoremap <buffer> z <Plug>ZettelNewSelectedMap
